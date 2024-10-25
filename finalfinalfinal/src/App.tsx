@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       {/* <AuthProvider> */}
         <Routes>
-          <Route path="/" element={<Navigate to="/ThesisListPage" replace />} />
+          <Route path="/" element={<Navigate to="/theses" replace />} />
           <Route
             path="/theses"
             element={

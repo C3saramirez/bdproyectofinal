@@ -1,88 +1,87 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333333;
-    margin-bottom: 20px;
-  }
-  
-  /* Barra de búsqueda */
-  .search-bar {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  
-  .search-bar:focus {
-    outline: none;
-    border-color: #007bff;
-  }
-  
-  /* Tabla de tesis */
-  .thesis-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-  
-  .thesis-table th,
-  .thesis-table td {
-    padding: 12px;
-    text-align: left;
-  }
-  
-  .thesis-table thead th {
-    background-color: #007bff;
-    color: #ffffff;
-  }
-  
-  .thesis-table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  .thesis-table a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .thesis-table a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Botón de cargar tesis */
-  .upload-button {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #ffffff;
-    background-color: #28a745;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 16px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  
-  .upload-button:hover {
-    background-color: #218838;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Tabla de tesis */
+.thesis-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.thesis-table th,
+.thesis-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.thesis-table thead th {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.thesis-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.thesis-table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.thesis-table a:hover {
+  text-decoration: underline;
+}
+
+/* Botón de cargar tesis */
+.upload-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #28a745;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+  background-color: #218838;
+}
