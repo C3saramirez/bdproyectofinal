@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import './ThesisListPage.css';
 
 interface Thesis {
   id: number;
@@ -13,7 +14,7 @@ interface Thesis {
 const ThesisListPage = () => {
   const [theses, setTheses] = useState<Thesis[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
-
+  
   // Función para obtener la lista de tesis desde el backend
   const fetchTheses = async () => {
     try {

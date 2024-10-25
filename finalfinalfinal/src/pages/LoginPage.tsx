@@ -1,3 +1,4 @@
+/*
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -22,7 +23,8 @@ export default function LoginPage() {
 
   const onSubmit = async (data: LoginFormData) => {
     try {
-      await login(data.email, data.password);
+      const user = await login(data.email, data.password);
+      console.log(user);
       navigate('/theses');
     } catch (error) {
       toast.error('Invalid credentials');
@@ -90,3 +92,4 @@ export default function LoginPage() {
     </div>
   );
 }
+*/
